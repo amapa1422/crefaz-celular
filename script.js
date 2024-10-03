@@ -10,6 +10,11 @@ window.onload = () => {
         audio.play();
     });
 
+      img.addEventListener('touchstart', () => {
+        audio.play();
+    });
+
+    
     // Ao clicar na imagem, exibe a caixa de diálogo
     img.addEventListener('click', () => {
         dialogBox.classList.remove('hidden');
